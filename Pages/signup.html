@@ -3,29 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title> <link rel="stylesheet" href="../src/style.css">
+    <title>Sign Up - Black Gate Production GH</title>
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
-     <nav>
+    <div class="logo">BGP GH</div>
+
+    <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../Pages/Aboutus.html">About Us</a></li>
-            <li><a href="../Pages/salon.html">salon services</a></li>
-            <li><a href="../Pages/Makeup.html">Makeup services</a></li>
-            <li><a href="../Pages/Contactus.html">Contact</a></li>
-            <li><a href="../Pages/login.html">login</a></li>
-            <li><a href="../Pages/signup.html">Register</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="salon.html">Salon Services</a></li>
+            <li><a href="Makeup.html">Makeup Services</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
         </ul>
     </nav>
-    <h1>Sign Up</h1>
+
+    <h1>Join Black Gate Production</h1>
+    <p>Create an account to book your beauty appointments and enjoy exclusive member benefits.</p>
+
     <form action="signup.php" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+
         <input type="submit" value="Sign Up">
+        
+        <p style="text-align: center; margin-top: 15px;">Already have an account? <a href="login.html">Login Here</a></p>
     </form>
+
+    <section class="gallery">
+        <div class="gallery-row">
+            <div class="image-container">
+                <img src="../images/Image20.jpg" alt="Welcome">
+                <div class="quote">"Join our beauty family today."</div>
+            </div>
+            <div class="image-container">
+                <img src="../images/Image1.jpg" alt="Member Benefits">
+                <div class="quote">"Enjoy special member privileges."</div>
+            </div>
+            <div class="image-container">
+                <img src="../images/Image3.jpg" alt="Personal Care">
+                <div class="quote">"Your beauty success is our mission."</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Black Gate Production GH. All rights reserved.</p>
+        <p>Phone: +233 XXX XXX XXX | Email: info@blackgateproduction.com</p>
+        <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </footer>
 </body>
 </html>

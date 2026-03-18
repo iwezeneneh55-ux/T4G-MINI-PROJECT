@@ -3,30 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title> <link rel="stylesheet" href="../src/style.css">
+    <title>Contact Us - Black Gate Production GH</title>
+    <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
-     <nav>
+    <div class="logo">BGP GH</div>
+
+    <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../Pages/Aboutus.html">About Us</a></li>
-            <li><a href="../Pages/salon.html">salon services</a></li>
-            <li><a href="../Pages/Makeup.html">Makeup services</a></li>
-            <li><a href="../Pages/Contactus.html">Contact</a></li>
-            <li><a href="../Pages/login.html">login</a></li>
-            <li><a href="../Pages/signup.html">Register</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="salon.html">Salon Services</a></li>
+            <li><a href="Makeup.html">Makeup Services</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
         </ul>
     </nav>
+
     <h1>Contact Us</h1>
-    <p>Have questions or want to book an appointment? Reach out to us!</p>
+    <p>Have questions or want to book an appointment? We'd love to hear from you! Reach out to us using any of the methods below.</p>
+
+    <h3>Contact Information</h3>
+    <p><strong>Phone:</strong> +233 XXX XXX XXX</p>
+    <p><strong>Email:</strong> info@blackgateproduction.com</p>
+    <p><strong>Location:</strong> Accra, Ghana</p>
+
+    <h3>Send us a Message</h3>
     <form action="contact.php" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+
         <input type="submit" value="Send Message">
     </form>
+
+    <section class="gallery">
+        <div class="gallery-row">
+            <div class="image-container">
+                <img src="../images/Image14.jpg" alt="Our Salon">
+                <div class="quote">"Visit us and experience the difference."</div>
+            </div>
+            <div class="image-container">
+                <img src="../images/Image15.jpg" alt="Welcoming Space">
+                <div class="quote">"Friendly staff awaits you."</div>
+            </div>
+            <div class="image-container">
+                <img src="../images/Image16.jpg" alt="Quality Care">
+                <div class="quote">"We look forward to serving you."</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Black Gate Production GH. All rights reserved.</p>
+        <p>Phone: +233 XXX XXX XXX | Email: info@blackgateproduction.com</p>
+        <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </footer>
 </body>
 </html>
