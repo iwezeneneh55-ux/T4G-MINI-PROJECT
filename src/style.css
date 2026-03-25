@@ -88,8 +88,17 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     padding: 40px;
-    color: white;
+    color: #ffffff;
     background: linear-gradient(135deg, #000000 0%, #6F4E37 100%);
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+}
+
+.hero-text .container h1,
+.hero-text .container h3,
+.hero-text .container p {
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .container {
