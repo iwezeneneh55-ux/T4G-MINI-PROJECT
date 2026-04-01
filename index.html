@@ -38,29 +38,37 @@
         </div>
     </header>
 
-    <section class="gallery">
-        <div class="gallery-row">
-            <div class="image-container">
+    <section class="carousel" id="gallery-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
                 <img src="images/Image20.jpg" alt="Hairstyle 1">
-                <div class="quote">"Beauty is confidence, and we help you find it."</div>
+                <h3>Modern Hair Styling</h3>
+                <p>"Beauty is confidence, and we help you find it."</p>
             </div>
-            <div class="image-container">
+            <div class="carousel-slide">
                 <img src="images/Image4.jpg" alt="Hairstyle 2">
-                <div class="quote">"Your hair tells your story."</div>
+                <h3>Creative Cuts</h3>
+                <p>"Your hair tells your story."</p>
             </div>
-            <div class="image-container">
+            <div class="carousel-slide">
                 <img src="images/Image12.jpg" alt="Hairstyle 3">
-                <div class="quote">"Transform yourself, transform your life."</div>
+                <h3>Professional Coloring</h3>
+                <p>"Transform yourself, transform your life."</p>
             </div>
-            <div class="image-container">
+            <div class="carousel-slide">
                 <img src="images/Image9.jpg" alt="Hairstyle 4">
-                <div class="quote">"Elegance is not about standing out, it's about being remembered."</div>
+                <h3>Elegant Styles</h3>
+                <p>"Elegance is not about standing out, it's about being remembered."</p>
             </div>
-            <div class="image-container">
+            <div class="carousel-slide">
                 <img src="images/Image19.jpg" alt="Hairstyle 5">
-                <div class="quote">"Beauty in every detail."</div>
+                <h3>Beauty in Detail</h3>
+                <p>"Beauty in every detail."</p>
             </div>
         </div>
+        <button class="carousel-controls carousel-prev" id="prev-btn">&#10094;</button>
+        <button class="carousel-controls carousel-next" id="next-btn">&#10095;</button>
+        <div class="carousel-dots" id="carousel-dots"></div>
     </section>
 
     <footer>
@@ -69,5 +77,7 @@
         <p>Location: Accra, Ghana</p>
         <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">TikTok</a></p>
     </footer>
+
+    <script src="src/script.js"></script>
 </body>
 </html>
